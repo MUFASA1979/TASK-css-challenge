@@ -1,7 +1,25 @@
 /* Add your code in each class */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: darksalmon;
+  width: 100vw;
+  height: 100vh;
+}
+
 .container {
+  width: 400px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .head {
+  background-color: cadetblue;
+  font-size: xx-large;
+  font-family: sans-serif;
 }
 
 .row {
